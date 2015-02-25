@@ -1,6 +1,9 @@
-<?
-if(!extension_loaded('hades')) {
-  dl('hades.so');
-}
-
-example(2);
+--TEST--
+--SKIPIF--
+<?php ?>
+--FILE--
+<?php
+echo example(2);
+?>
+--EXPECT--
+4
